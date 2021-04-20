@@ -8,7 +8,21 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Bndlr</title>
+        <meta property="og:title" content="bndlr -BMS bundle installer-" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bndlr.bmssearch.net/" />
+        <meta
+          property="og:image"
+          content="https://bndlr.bmssearch.net/ogp.png"
+        />
+        <meta
+          property="og:description"
+          content="BMSのダウンロード・インストールを補助するツールです。"
+        />
+        <meta property="og:site_name" content="bndlr" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <title>bndlr -BMS bundle installer-</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link

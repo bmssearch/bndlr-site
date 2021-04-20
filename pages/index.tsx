@@ -54,6 +54,31 @@ export default function Home() {
           </section>
 
           <section style={{ marginTop: 120 }}>
+            <h2>仕組み</h2>
+            <p>
+              <a href="https://github.com/bmssearch/bms-bundle-manifest-spec">
+                BMS Bundle Manifest
+              </a>
+              に則って作成されたマニフェストをインターネット上から読み取ります。
+              <br />
+              例えば
+              <a href="https://venue.bmssearch.net/bmsshuin3/112/manifest">
+                こちら
+              </a>
+              のようにjson形式で公開されていれば誰が公開したものでも読み取れます。
+              <br />
+              マニフェストにはBMSに関連したリソースの一覧が記載されており、これが自動的にインストールリストに加わります。
+              <br />
+              各インストールリストに対してユーザーが明示的にインストール許可を行うと、自動的にダウンロード・解凍・インストールが行われます。
+              <br />
+              <br />
+              グループに関するマニフェストが公開されている場合は、これを読み取ってカスタムフォルダの生成に用います。
+              <br />
+              更新に関するマニフェストが公開されている場合は、これを読み取って定期的にBMSの更新を確認します。
+            </p>
+          </section>
+
+          <section style={{ marginTop: 120 }}>
             <h2>バグ報告・要望</h2>
             <p>
               オープンソースです。諸々
