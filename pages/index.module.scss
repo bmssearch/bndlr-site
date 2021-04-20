@@ -1,0 +1,57 @@
+.container {
+  padding-bottom: 120px;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 540px;
+  margin-right: 8px;
+}
+
+.lead {
+  font-size: 24px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.video {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+.download {
+  width: 320px;
+}
+
+.button {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  background: linear-gradient(113.75deg, #20b2ab 10.08%, #3ca7b5 92.97%);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.note {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #8594a1;
+}
